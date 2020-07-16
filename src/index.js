@@ -11,11 +11,10 @@ function run() {
                 response.data.forEach(data => {
                     listSendData = listSendData+ `\n\n Title : ${data.title}\n Link: ${data.permalink}`
                 })
+                telegramClient.send(listSendData)
             } else {
-                listSendData = 'No error in this period'
             }
             
-            telegramClient.send(listSendData)
         }).catch(err => { console.log(err) })
     });
 }
