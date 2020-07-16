@@ -1,0 +1,24 @@
+{
+  "name": "sentry-report-tele",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levinenguyen98/sentry-report-tele.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Levinenguyen98/sentry-report-tele/issues"
+  },
+  "homepage": "https://github.com/Levinenguyen98/sentry-report-tele#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  }
+}
